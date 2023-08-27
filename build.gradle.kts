@@ -44,7 +44,6 @@ lateinit var javadocArtifact: PublishArtifact
 
 sourceSets {
     main {
-        java.srcDir("src")
         resources.srcDir(generatedJarInfoDir)
     }
     test {
